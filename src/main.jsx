@@ -6,7 +6,7 @@ import axios from "axios"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Signup from './component/User/Signup.jsx';
 import Login from './component/User/Login.jsx';
-axios.defaults.baseURL = 'https://backendexpense-k9jp.vercel.app';
+// axios.defaults.baseURL = 'https://backendexpense-k9jp.vercel.app';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
        {/* <App /> */}
